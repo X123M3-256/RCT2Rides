@@ -1,0 +1,75 @@
+{
+"id":"openrct2.ride.rmct1",
+"name":"Hybrid Coaster",
+"description":"A wooden style rollercoaster with a steel track, allowing for steep drops and inversions",
+"capacity":"4 passengers per car",
+"preview":"hybrid/preview.png",
+"ride_type":"hybrid_rc",
+"sprites":["flat","gentle_slopes","steep_slopes","vertical_slopes","diagonals","banked_turns","inline_twists","banked_sloped_turns","corkscrews"],
+"zero_cars":0,
+"min_cars_per_train":3,
+"max_cars_per_train":6,
+"build_menu_priority":5,
+"preview_tab_car":0,
+"running_sound":"steel_smooth",
+"secondary_sound":"scream1",
+"default_colors":
+	[
+	["olive_green","olive_green","bright_red"],
+	["light_blue","yellow","yellow"],
+	["dark_brown","bright_red","light_orange"]
+	],
+"configuration":{"default":1,"front":0},
+"meshes":["hybrid/front_car.obj","hybrid/car.obj","hybrid/peep.obj","hybrid/restraint.obj"],
+"vehicles":
+	[
+		{
+		"flags":["secondary_remap","tertiary_remap","restraint_animation","riders_scream"],
+		"model":
+			[
+			{"mesh_index":0,"position":[0,0,0],"orientation":[0,0,0]},
+			{"mesh_index":3,"position":[0.594,0.260,0],"orientation":[[0,0,0],[0,-16.6,0],[0,-33.33,0],[0,-50,0]]},
+			{"mesh_index":3,"position":[-0.270,0.260,0],"orientation":[[0,0,0],[0,-16.6,0],[0,-33.33,0],[0,-50,0]]}
+			],
+		"mass":510,
+		"spacing":2.3,
+		"draw_order":7,
+		"capacity":4,
+		"riders":[
+			{"mesh_index":2,"position":[0.363,0,0],"orientation":[0,0,0]},
+			{"mesh_index":2,"position":[-0.5,0,0],"orientation":[0,0,0]}
+			]
+		},	
+		{
+		"flags":["secondary_remap","tertiary_remap","restraint_animation","riders_scream"],
+		"model":
+			[
+			{"mesh_index":1,"position":[0,0,0],"orientation":[0,0,0]},
+			{"mesh_index":3,"position":[0.731,0.260,0],"orientation":[[0,0,0],[0,-16.6,0],[0,-33.33,0],[0,-50,0]]},
+			{"mesh_index":3,"position":[-0.133,0.260,0],"orientation":[[0,0,0],[0,-16.6,0],[0,-33.33,0],[0,-50,0]]}
+			],
+		"mass":480,
+		"spacing":2.15,
+		"draw_order":7,
+		"capacity":4,
+		"riders":[
+			{"mesh_index":2,"position":[0.5,0,0],"orientation":[0,0,0]},
+			{"mesh_index":2,"position":[-0.364,0,0],"orientation":[0,0,0]}
+			]
+		}	
+	],
+
+
+
+"lights":[
+	{"type":"diffuse","shadow":false,"direction":[0,-1,0],"strength":0.1},
+	{"type":"diffuse","shadow":false,"direction":[0,0.5,-1],"strength":0.6},
+	{"type":"specular","shadow":false,"direction":[1,1.65,-1],"strength":1.0},
+	{"type":"diffuse","shadow":false,"direction":[1,1.7,-1],"strength":0.8},
+	{"type":"diffuse","shadow":false,"direction":[0,1,0],"strength":0.6},
+	{"type":"diffuse","shadow":false,"direction":[-1,0.85,1],"strength":0.475},
+	{"type":"diffuse","shadow":false,"direction":[0.75,0.4,-1],"strength":0.6},
+	{"type":"diffuse","shadow":false,"direction":[1,0.25,0],"strength":0.5}
+	],
+"output_directory":"/home/edward/RCT2Prog/OpenRCT2/data/object/"
+}
