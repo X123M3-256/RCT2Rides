@@ -1,0 +1,43 @@
+{
+"id":"openrct2.ride.alp1",
+"ride_type":"alpine_rc",
+"name":"Alpine Coaster Cars",
+"description":"Toboggan shaped cars",
+"capacity":"2 passengers per car",
+"sprites":["flat","gentle_slopes","steep_slopes","diagonals","banked_turns"],
+"zero_cars":0,
+"min_cars_per_train":1,
+"max_cars_per_train":1,
+"build_menu_priority":5,
+"preview_tab_car":0,
+"running_sound":"steel",
+"secondary_sound":"scream1",
+"default_colors":
+	[
+	["bright_red","bright_red","yellow"],
+	["light_blue","black","light_orange"],
+	["yellow","yellow","bright_red"]
+	],
+"configuration":{"default":0},
+"meshes":["alpine/car.obj","alpine/peep.obj"],
+"vehicles":
+	[
+		{
+		"flags":[],
+		"model":
+			[
+			{"mesh_index":0,"position":[0,0,0],"orientation":[0,0,0]}
+			],
+		"mass":220,
+		"spacing":1.9,
+		"draw_order":7,
+		"capacity":2,
+		"riders":
+			[
+			{"mesh_index":1,"position":[0,0,0],"orientation":[0,0,0]}
+			]
+		}	
+	],
+
+"output_directory":"/home/edward/RCT2Prog/OpenRCT2/data/object/"
+}
