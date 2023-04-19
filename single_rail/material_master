@@ -1,4 +1,67 @@
 
+newmtl Remap1_Edge
+Ns 8
+Kd 0.330000 0.000000 0.000000
+Ks 0.275000 0.2750000 0.2750000
+
+newmtl Remap1_NoBleed_NoAO
+Ns 8
+Kd 0.330000 0.000000 0.000000
+Ks 0.275000 0.2750000 0.2750000
+
+newmtl Remap2_Edge
+Ns 8
+Kd 0.330000 0.000000 0.000000
+Ks 0.275000 0.2750000 0.2750000
+
+newmtl Remap2_NoBleed_NoAO
+Ns 8
+Kd 0.330000 0.000000 0.000000
+Ks 0.275000 0.2750000 0.2750000
+
+newmtl Remap1_Chain
+Ns 2
+Kd 0.050000 0.050000 0.050000
+Ks 0.000000 0.000000 0.000000
+
+newmtl Brake_Greyscale
+Ns 5
+Kd 0.005000 0.005000 0.005000
+Ks 0.000000 0.000000 0.000000
+
+newmtl BrakeTop_Greyscale
+Ns 5
+Kd 0.060000 0.060000 0.060000
+Ks 0.000000 0.000000 0.000000
+
+newmtl BrakeSide_Greyscale
+Ns 5
+Kd 0.000000 0.000000 0.000000
+Ks 0.000000 0.000000 0.000000
+
+newmtl Brake_Remap1
+Ns 5
+Kd 0.100000 0.100000 0.100000
+Ks 0.000000 0.000000 0.000000
+
+newmtl VisibleMask
+Ns 8
+Kd 0.50000 0.500000 0.500000
+Ks 0.275000 0.2750000 0.2750000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 newmtl Remap1
 Ns 4
 Kd 0.000000 0.300000 0.000000
@@ -15,7 +78,7 @@ newmtl Remap3_Edge
 Ns 5
 Kd 0.300000 0.300000 0.000000
 Ks 0.800000 0.800000 0.800000
-map_Kd textures/remap_texture.png
+map_Kd textures/remap_texture_very_light.png
 
 newmtl Harness 
 Ns 5
@@ -56,7 +119,7 @@ Ks 0.500000 0.500000 0.500000
 
 newmtl Peep_Skin
 Ns 5
-Kd 0.900000 0.33 0.18
+Kd 0.950000 0.35 0.2
 Ks 1.000000 1.000000 1.000000
 
 newmtl Peep_Hair_Edge

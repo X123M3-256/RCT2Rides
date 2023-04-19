@@ -1,12 +1,12 @@
 {
-"id":"openrct2.ride.rmct2",
+"id":"openrct2.ride.single_rail_coaster",
+"original_id":"00000000|#SINGLER|00000000",
 "ride_type":"single_rail_rc",
-"checksum":541281618,
-"name":"Single Rail Coaster",
-"description":"Riders ride single file on a narrow monorail track, as they race through tight inversions and direction changes",
+"name":"Single Rail Roller Coaster Trains",
+"description":"Roller coaster trains in which riders are seated single file",
 "capacity":"1 passenger per car",
 "preview":"single_rail/preview.png",
-"sprites":["flat","gentle_slopes","steep_slopes","vertical_slopes","diagonals","banked_turns","inline_twists","banked_sloped_turns","corkscrews"],
+"sprites":["flat","gentle_slopes","steep_slopes","vertical_slopes","diagonals","banked_turns","inline_twists","banked_sloped_turns","corkscrews","zero_g_rolls","diagonal_sloped_bank_transition"],
 "zero_cars":0,
 "min_cars_per_train":5,
 "max_cars_per_train":12,
@@ -33,7 +33,7 @@
 			],
 		"mass":220,
 		"spacing":1.25,
-		"draw_order":7,
+		"draw_order":8,
 		"capacity":1,
 		"riders":[
 			[
@@ -50,7 +50,7 @@
 			],
 		"mass":200,
 		"spacing":1.25,
-		"draw_order":7,
+		"draw_order":8,
 		"capacity":1,
 		"riders":[
 			[
@@ -73,5 +73,5 @@
 	{"type":"diffuse","shadow":false,"direction":[0.75,0.4,-1],"strength":0.6},
 	{"type":"diffuse","shadow":false,"direction":[1,0.25,0],"strength":0.5}
 	],
-"output_directory":"/home/edward/RCT2Prog/OpenRCT2/data/object/"
+"output_directory":"/home/edward/.config/OpenRCT2/object/"
 }
