@@ -1,0 +1,53 @@
+{
+"flags":["has_supports","semi_split"],
+"actual_sections":["flat","turns","gentle_slopes","steep_slopes","vertical_slopes","large_slope_transitions","diagonals","sloped_turns","banked_turns","banked_sloped_turns","s_bends","helices","barrel_rolls","quarter_loops","brakes","boosters","launched_lifts","turn_bank_transitions","zero_g_rolls"],
+"sections":["large_sloped_turns","large_banked_sloped_turns"],
+"lift_sections":["flat","gentle_slopes","steep_slopes","diagonals"],
+"lift_offset":14,
+"z_offset":13,
+"pivot":0.116897727273,
+"length":0.5,
+"support_spacing":0.8,
+
+"models":
+	{
+	"track":"hybrid/track.obj",
+	"lift":"hybrid/lift.obj",
+	"brake":"hybrid/brake.obj",
+	"block_brake":"hybrid/block_brake.obj",
+	"booster":"hybrid/booster.obj",
+	"mask":"hybrid/mask.obj",
+	"support_flat":"hybrid/support.obj",
+	"support_bank_third":"hybrid/support_bank_third.obj",
+	"support_bank_half":"hybrid/support_bank_half.obj",
+	"support_bank_two_thirds":"hybrid/support_bank_two_thirds.obj",
+	"support_bank":"hybrid/support_bank.obj",
+	"support_base":"hybrid/support_base.obj",
+	"support_vertical":"hybrid/support_vertical.obj",
+	"support_steep_to_vertical":"hybrid/support_steep_to_vertical.obj",
+	"support_vertical_to_steep":"hybrid/support_vertical_to_steep.obj",
+	"support_vertical_twist":"hybrid/support_vertical_twist.obj",
+	"support_barrel_roll":"hybrid/support_barrel_roll.obj",
+	"support_quarter_loop":"hybrid/support_quarter_loop.obj",
+	"support_corkscrew":"hybrid/support_corkscrew.obj",
+	"support_zero_g_roll":"hybrid/support_zero_g_roll.obj",
+	"support_large_zero_g_roll":"hybrid/support_large_zero_g_roll.obj"
+	},
+
+"lights":[
+	{"type":"diffuse","shadow":false,"direction":[0,-1,0],"strength":0.25},
+	{"type":"diffuse","shadow":false,"direction":[1,0.3,0],"strength":0.426},
+	{"type":"specular","shadow":false,"direction":[1,1,-1],"strength":1.0},
+	{"type":"diffuse","shadow":false,"direction":[1,0.65,-1],"strength":0.55},
+	{"type":"diffuse","shadow":false,"direction":[0,1,0],"strength":0.256},
+	{"type":"diffuse","shadow":false,"direction":[-1,0,0],"strength":0.15},
+	{"type":"diffuse","shadow":false,"direction":[0,1,1],"strength":0.063},
+	{"type":"diffuse","shadow":false,"direction":[0.65,1,-0.65],"strength":0.325},
+	{"type":"diffuse","shadow":false,"direction":[-1,0,-1],"strength":0.25}
+	],
+
+"base_directory":"/home/edward/RCT2/OpenRCT2/resources/g2/",
+"sprite_directory":"track/rmc/",
+"spritefile_in":"sprites_old.json",
+"spritefile_out":"sprites.json"
+}
