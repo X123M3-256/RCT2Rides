@@ -1,0 +1,32 @@
+{
+"flags":["split"],
+"sections":["boosters","vertical_boosters"],
+"z_offset":4,
+"length":0.3333333,
+
+
+"models":
+	{
+	"track":"lim/lim.obj",
+	"mask":"lim/lim_mask.obj",
+	"booster":"lim/lim_booster.obj"
+	},
+
+"lights":[
+	{"type":"diffuse","shadow":false,"direction":[0,-1,0],"strength":0.1},
+	{"type":"diffuse","shadow":false,"direction":[1,0.3,0],"strength":0.32},
+	{"type":"specular","shadow":true,"direction":[1,0.6,-1],"strength":0.9},
+	{"type":"diffuse","shadow":true,"direction":[1,0.6,-1],"strength":0.8},
+	{"type":"diffuse","shadow":false,"direction":[0,1,0],"strength":0.175},
+	{"type":"diffuse","shadow":false,"direction":[-1,0.3,0],"strength":0.075},
+	{"type":"diffuse","shadow":false,"direction":[0,1,1],"strength":0.1},
+	{"type":"diffuse","shadow":false,"direction":[1,0.5,-1],"strength":0.75},
+	{"type":"diffuse","shadow":false,"direction":[-1,0.2,1],"strength":0.1},
+	{"type":"diffuse","shadow":false,"direction":[-1,0,-1],"strength":0.25}
+	],
+
+"base_directory":"/home/edward/RCT2/OpenRCT2/resources/g2/",
+"sprite_directory":"track/lim/",
+"spritefile_in":"sprites_old.json",
+"spritefile_out":"sprites.json"
+}

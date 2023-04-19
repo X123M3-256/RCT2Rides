@@ -1,0 +1,18 @@
+{
+"flags":[],
+"sections":["vertical_slopes","sloped_turns","barrel_rolls","quarter_loops","half_loops","vertical_loops","large_half_loops","corkscrews","turn_bank_transitions","small_slope_transitions","medium_half_loops","zero_g_rolls","large_corkscrews","large_sloped_turns","large_banked_sloped_turns"],
+"actual_sections":["large_slope_transitions","barrel_rolls","half_loops","large_half_loops","turn_bank_transitions","large_corkscrews","medium_half_loops","zero_g_rolls","small_slope_transitions","large_sloped_turns","large_banked_sloped_turns"],
+"lift_sections":["gentle_slopes","steep_slopes","diagonals"],
+"z_offset":4,
+"length":0.3333333,
+
+"models":
+	{
+	"track":"lim/lim.obj",
+	"mask":"lim/lim_mask.obj"
+	},
+"base_directory":"/home/edward/RCT2/OpenRCT2/resources/g2/",
+"sprite_directory":"track/lim/",
+"spritefile_in":"sprites_old.json",
+"spritefile_out":"sprites.json"
+}

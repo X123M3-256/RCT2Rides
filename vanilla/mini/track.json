@@ -1,0 +1,31 @@
+{
+"flags":["separate_tie","tie_at_boundary"],
+"sections":["vertical_slopes","sloped_turns","barrel_rolls","quarter_loops","half_loops","vertical_loops","large_half_loops","corkscrews","turn_bank_transitions","large_slope_transitions","small_slope_transitions","medium_half_loops","zero_g_rolls","large_corkscrews","large_sloped_turns","large_banked_sloped_turns"],
+"z_offset":9,
+"length":0.25,
+"tie_length":0.0425,
+
+"models":
+	{
+	"track":"vanilla/mini/track.obj",
+	"track_alt":"vanilla/mini/track.obj",
+	"tie":"vanilla/mini/tie.obj",
+	"track_tie":"vanilla/mini/track_tie.obj",
+	"mask":"vanilla/mini/mask.obj"
+	},
+
+"lights":[
+	{"type":"diffuse","shadow":false,"direction":[1,0.75,1],"strength":0.3},
+	{"type":"specular","shadow":false,"direction":[0.8,0.85,-1],"strength":1.0},
+	{"type":"diffuse","shadow":false,"direction":[0.8,0.85,-1],"strength":1.0},
+	{"type":"diffuse","shadow":false,"direction":[0,1,0],"strength":0.8},
+	{"type":"diffuse","shadow":false,"direction":[-1,0.25,0],"strength":0.2},
+	{"type":"diffuse","shadow":false,"direction":[-1,1,0],"strength":0.1}
+	],
+
+"base_directory":"/home/edward/RCT2/OpenRCT2/resources/g2/",
+"sprite_directory":"track/mini/",
+"spritefile_in":"sprites.json",
+"spritefile_out":"sprites.json"
+}
+
