@@ -1,3 +1,14 @@
+newmtl Track_Remap1_Edge
+Ns 5
+Kd 0.500000 0.500000 0.500000
+Ks 0.200000 0.200000 0.200000
+
+newmtl Lift_Greyscale
+Ns 5
+Kd 0.000000 0.000000 0.000000
+Ks 0.000000 0.000000 0.000000
+
+
 
 newmtl Remap1
 Ns 4
@@ -13,7 +24,7 @@ Ks 0.050000 0.050000 0.050000
 newmtl Seat
 Ns 5
 Kd 0.070000 0.070000 0.070000
-Ks 0.500000 0.500000 0.500000
+Ks 0.300000 0.300000 0.300000
 map_Kd textures/seat_texture_dark.png
 
 

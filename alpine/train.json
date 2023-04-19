@@ -1,10 +1,12 @@
 {
-"id":"openrct2.ride.alp1",
+"id":"openrct2.ride.alpine_coaster",
 "ride_type":"alpine_rc",
 "name":"Alpine Coaster Cars",
-"description":"Toboggan shaped cars",
+"description":"Toboggan cars equipped with rider operated brakes",
 "capacity":"2 passengers per car",
-"sprites":["flat","gentle_slopes","steep_slopes","diagonals","banked_turns"],
+"preview":"alpine/preview.png",
+"flags":["no_collision_crashes","rider_controls_speed"],
+"sprites":["flat","gentle_slopes","diagonals","banked_turns"],
 "zero_cars":0,
 "min_cars_per_train":1,
 "max_cars_per_train":1,
@@ -28,7 +30,7 @@
 			[
 			{"mesh_index":0,"position":[0,0,0],"orientation":[0,0,0]}
 			],
-		"mass":220,
+		"mass":450,
 		"spacing":1.9,
 		"draw_order":7,
 		"capacity":2,
@@ -39,5 +41,5 @@
 		}	
 	],
 
-"output_directory":"/home/edward/RCT2Prog/OpenRCT2/data/object/"
+"output_directory":"/home/edward/.config/OpenRCT2/object/"
 }

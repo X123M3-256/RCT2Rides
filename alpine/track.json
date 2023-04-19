@@ -1,6 +1,6 @@
 {
-"flags":["has_lift"],
-"sections":["flat","turns","gentle_slopes","steep_slopes","diagonals","gentle_sloped_turns","banked_turns","banked_sloped_turns","s_bends","helices","brakes","turn_bank_transitions"],
+"flags":["has_lift","no_lift_sprite","limit_darkness"],
+"sections":["flat","turns","gentle_slopes","diagonals","gentle_sloped_turns","banked_turns","s_bends","helices","turn_bank_transitions"],
 "lift_sections":["flat","gentle_slopes","diagonals"],
 "z_offset":3,
 "length":0.5,
@@ -8,7 +8,7 @@
 "models":
 	{
 	"track":"alpine/track.obj",
-	"lift":"alpine/track.obj",
+	"lift":"alpine/lift.obj",
 	"mask":"alpine/mask.obj",
 	"brake":"alpine/track.obj",
 	"block_brake":"alpine/track.obj"

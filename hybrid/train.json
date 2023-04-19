@@ -1,11 +1,12 @@
 {
-"id":"openrct2.ride.rmct1",
-"name":"Hybrid Coaster",
-"description":"A wooden style rollercoaster with a steel track, allowing for steep drops and inversions",
+"id":"openrct2.ride.hybrid_coaster",
+"original_id":"00000000|#HYBRIDC|00000000",
+"name":"Hybrid Coaster Trains",
+"description":"Roller coaster trains with lap restraints, capable of steep drops and inversions",
 "capacity":"4 passengers per car",
 "preview":"hybrid/preview.png",
 "ride_type":"hybrid_rc",
-"sprites":["flat","gentle_slopes","steep_slopes","vertical_slopes","diagonals","banked_turns","inline_twists","banked_sloped_turns","corkscrews"],
+"sprites":["flat","gentle_slopes","steep_slopes","vertical_slopes","diagonals","banked_turns","inline_twists","banked_sloped_turns","corkscrews", "zero_g_rolls","diagonal_sloped_bank_transition"],
 "zero_cars":0,
 "min_cars_per_train":3,
 "max_cars_per_train":6,
@@ -71,5 +72,5 @@
 	{"type":"diffuse","shadow":false,"direction":[0.75,0.4,-1],"strength":0.6},
 	{"type":"diffuse","shadow":false,"direction":[1,0.25,0],"strength":0.5}
 	],
-"output_directory":"/home/edward/RCT2Prog/OpenRCT2/data/object/"
+"output_directory":"/home/edward/.config/OpenRCT2/object/"
 }
