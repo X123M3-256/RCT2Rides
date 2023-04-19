@@ -1,0 +1,72 @@
+{
+"id":"x7.ride.scenic_railway",
+"name":"Pipeline Coaster Trains",
+"description":"TBD",
+"capacity":"4 passengers per car",
+"ride_type":"pipeline_rc",
+"sprites":["flat","gentle_slopes","steep_slopes","vertical_slopes","diagonals","banked_turns","inline_twists"],
+"preview":"pipeline/preview.png",
+"zero_cars":0,
+"min_cars_per_train":3,
+"max_cars_per_train":6,
+"build_menu_priority":5,
+"preview_tab_car":0,
+"running_sound":"steel_smooth",
+"secondary_sound":"scream1",
+"default_colors":
+	[
+	["light_blue","light_blue","yellow"],
+	["bright_red","white","bright_red"],
+	["yellow","yellow","bright_red"]
+	],
+"configuration":{"default":1,"front":0,"rear":2},
+"meshes":["pipeline/front_car.obj","pipeline/car.obj","pipeline/wheels.obj","pipeline/peep.obj"],
+"vehicles":
+	[
+		{
+		"flags":["secondary_remap","tertiary_remap","riders_scream"],
+		"model":
+			[
+			{"mesh_index":0,"position":[0,0,0],"orientation":[0,0,0]}
+			],
+		"mass":640,
+		"spacing":3.1369,
+		"draw_order":11,
+		"capacity":4,
+		"riders":[
+			{"mesh_index":3,"position":[0.4,0,0],"orientation":[0,0,0]},
+			{"mesh_index":3,"position":[-0.64,0,0],"orientation":[0,0,0]}
+			]
+		},
+		{
+		"flags":["secondary_remap","tertiary_remap","riders_scream"],
+		"model":
+			[
+			{"mesh_index":1,"position":[0,0,0],"orientation":[0,0,0]}
+			],
+		"mass":640,
+		"spacing":3.1369,
+		"draw_order":11,
+		"capacity":4,
+		"riders":[
+			{"mesh_index":3,"position":[0.4,0,0],"orientation":[0,0,0]},
+			{"mesh_index":3,"position":[-0.64,0,0],"orientation":[0,0,0]}
+			]
+		},
+		{
+		"flags":[],
+		"model":
+			[
+			{"mesh_index":2,"position":[0,0,0],"orientation":[0,0,0]}
+			],
+		"mass":100,
+		"spacing2":0.936,
+		"spacing":2,
+		"draw_order":8,
+		"capacity":0
+		}
+
+	],
+
+"output_directory":"/home/edward/.config/OpenRCT2/object/"
+}
