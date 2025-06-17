@@ -1,10 +1,11 @@
 {
 "flags":[],
-"sections":["large_sloped_turns","large_banked_sloped_turns"],
-"sections_original":["flat","turns","gentle_slopes","steep_slopes","vertical_slopes","large_slope_transitions","diagonals","sloped_turns","banked_turns","banked_sloped_turns","s_bends","helices","barrel_rolls","quarter_loops","half_loops","large_half_loops","corkscrews","brakes","turn_bank_transitions","small_slope_transitions","large_corkscrews","medium_half_loops","zero_g_rolls"],
+"sections":["large_slope_transitions","dive_loops"],
+"sections_original":["flat","turns","gentle_slopes","steep_slopes","vertical_slopes","large_slope_transitions","diagonals","sloped_turns","banked_turns","banked_sloped_turns","s_bends","helices","barrel_rolls","quarter_loops","half_loops","large_half_loops","corkscrews","brakes","turn_bank_transitions","small_slope_transitions","large_corkscrews","medium_half_loops","zero_g_rolls","large_sloped_turns","large_banked_sloped_turns","diagonal_brakes","sloped_brakes"],
 "lift_sections":["flat","gentle_slopes","steep_slopes","diagonals","small_slope_transitions"],
 "z_offset":5,
 "length":0.5,
+"brake_length":0.5,
 
 "models":
 	{
@@ -16,6 +17,6 @@
 	},
 "base_directory":"/home/edward/RCT2/OpenRCT2/resources/g2/",
 "sprite_directory":"track/raptor/",
-"spritefile_in":"sprites_old.json",
+"spritefile_in":"sprites.json",
 "spritefile_out":"sprites.json"
 }
