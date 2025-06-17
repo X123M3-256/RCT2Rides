@@ -1,6 +1,7 @@
 {
-"flags":["separate_tie","tie_at_boundary"],
-"sections":["vertical_slopes","sloped_turns","barrel_rolls","quarter_loops","half_loops","vertical_loops","large_half_loops","corkscrews","turn_bank_transitions","large_slope_transitions","small_slope_transitions","medium_half_loops","zero_g_rolls","large_corkscrews","large_sloped_turns","large_banked_sloped_turns"],
+"flags":["separate_tie","tie_at_boundary","special_end_offsets"],
+"sections":["large_slope_transitions"],
+"all_sections":["vertical_slopes","sloped_turns","barrel_rolls","quarter_loops","half_loops","vertical_loops","large_half_loops","corkscrews","turn_bank_transitions","large_slope_transitions","small_slope_transitions","medium_half_loops","zero_g_rolls","large_corkscrews","large_sloped_turns","large_banked_sloped_turns","dive_loops"],
 "z_offset":9,
 "length":0.25,
 "tie_length":0.0425,
@@ -23,7 +24,21 @@
 	{"type":"diffuse","shadow":false,"direction":[-1,1,0],"strength":0.1}
 	],
 
-"base_directory":"/home/edward/RCT2/OpenRCT2/resources/g2/",
+"offsets":
+	{
+	"flat":[0,-1.25,0,-1.45,0,-1.25,0,-1.45],
+	"gentle":[0,-1,0,-1.25,0,-1.25,0,-1],
+	"steep":[1,-0.5,1,-0.5,0.5,-1,1,-0.5],
+	"flat_banked":[0,-2,-1,-1.5,1,0,-1,0],
+	"gentle_banked":[0.75,-2,-0.75,-2,1,-0.5,-0.5,-0.4],
+	"inverted":[0,0,0,0,0,0,0,0],
+	"diagonal":[0,-1.25,0,-1.25,0,-1.25,0,-1.25],
+	"diagonal_banked":[0,-1.75,-1,-0.25,0,-0.25,-1,-1.5],
+	"diagonal_gentle":[0,-1.5,0,-1.5,0,-1.5,0,-1.5],
+	"diagonal_steep":[0,-2.5,0,-0.5,0,-2.5,0,-0.5]
+	},
+
+"base_directory":"/home/edward/RCT2/OpenRCT2Alt/resources/g2/",
 "sprite_directory":"track/mini/",
 "spritefile_in":"sprites.json",
 "spritefile_out":"sprites.json"

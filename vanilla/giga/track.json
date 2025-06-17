@@ -1,22 +1,33 @@
 {
-"flags":["separate_tie","tie_at_boundary"],
-"sections":["vertical_slopes","sloped_turns","barrel_rolls","quarter_loops","half_loops","vertical_loops","large_half_loops","corkscrews","turn_bank_transitions","small_slope_transitions","medium_half_loops","zero_g_rolls","large_corkscrews","large_sloped_turns","large_banked_sloped_turns"],
+"flags":["separate_tie","tie_at_boundary","special_end_offsets"],
+"sections":["large_slope_transitions","dive_loops"],
 "all_sections":["flat","turns","gentle_slopes","steep_slopes","vertical_slopes","large_slope_transitions","diagonals","sloped_turns","banked_turns","banked_sloped_turns","s_bends","helices","barrel_rolls","quarter_loops","half_loops","large_half_loops","corkscrews","brakes","turn_bank_transitions","small_slope_transitions","medium_half_loops","zero_g_rolls","large_corkscrews","large_sloped_turns","large_banked_sloped_turns"],
-"lift_sections":["flat","gentle_slopes","steep_slopes","diagonals","small_slope_transitions"],
 "z_offset":9,
 "length":0.25,
 "tie_length":0.0425,
 
+"offsets":
+	{
+	"flat":[0,-1,0,-1.5,0,-1,0,-1.5],
+	"gentle":[0,-1,0,-2,0,-2,0,-1],
+	"steep":[1,-0.5,1,-0.5,0.5,-1,1,-0.5],
+	"flat_banked":[0,-2,-1,-1.5,1,0,-1,0],
+	"gentle_banked":[0.75,-2,-0.75,-2,1,-0.5,0,-0.5],
+	"inverted":[0,0,0,0,0,0,0,0],
+	"diagonal":[0,-1.25,0,-1.25,0,-1.25,0,-1.25],
+	"diagonal_banked":[0,-1.75,-1,-0.25,0,-0.25,-1,-1.5],
+	"diagonal_gentle":[0,-1.5,0,-1.5,0,-1.5,0,-1.5],
+	"diagonal_steep":[0,-2.5,0,-0.5,0,-2.5,0,-0.5]
+	},
+
 "models":
 	{
-	"track":"lsm_launched/track_alt.obj",
-	"lift":"lsm_launched/track.obj",
-	"track_alt":"lsm_launched/track.obj",
-	"tie":"lsm_launched/tie.obj",
-	"track_tie":"lsm_launched/track_tie.obj",
-	"mask":"lsm_launched/mask.obj",
-	"brake":"modern_looping/brake.obj",
-	"block_brake":"modern_looping/brake.obj"
+	"track":"vanilla/giga/track_alt.obj",
+	"lift":"vanilla/giga/track.obj",
+	"track_alt":"vanilla/giga/track.obj",
+	"tie":"vanilla/giga/tie.obj",
+	"track_tie":"vanilla/giga/track_tie.obj",
+	"mask":"vanilla/giga/mask.obj"
 	},
 
 "lights":[
@@ -29,7 +40,7 @@
 	],
 
 "base_directory":"/home/edward/RCT2/OpenRCT2/resources/g2/",
-"sprite_directory":"track/intamin/",
+"sprite_directory":"track/lattice_triangle/",
 "spritefile_in":"sprites_old.json",
 "spritefile_out":"sprites.json"
 }
