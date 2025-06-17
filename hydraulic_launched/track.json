@@ -1,23 +1,174 @@
 {
-"flags":["separate_tie","tie_at_boundary"],
-"sections":["large_sloped_turns","large_banked_sloped_turns"],
-"actual_sections":["flat","turns","gentle_slopes","steep_slopes","vertical_slopes","large_slope_transitions","diagonals","sloped_turns","banked_turns","banked_sloped_turns","s_bends","helices","barrel_rolls","quarter_loops","half_loops","large_half_loops","corkscrews","brakes","turn_bank_transitions","small_slope_transitions","medium_half_loops","zero_g_rolls","large_corkscrews"],
-"z_offset":12,
-"length":0.25,
-"tie_length":0.030303030303,
+"tracks":
+	[
+		{
+		"flags":["separate_tie","tie_at_boundary","special_end_offsets"],
+		"sections":["flat","turns","gentle_slopes","steep_slopes","vertical_slopes","large_slope_transitions","diagonals","sloped_turns","banked_turns","banked_sloped_turns","s_bends","helices","barrel_rolls","quarter_loops","half_loops","large_half_loops","corkscrews","turn_bank_transitions","small_slope_transitions","medium_half_loops","zero_g_rolls","large_corkscrews","large_sloped_turns","large_banked_sloped_turns","dive_loops"],
+		"masks":"masks/default.json",
+		"z_offset":9,
+		"length":0.25,
+		"tie_length":0.0425,
+		"models":
+			{
+			"track":"hydraulic_launched/track.obj",
+			"track_alt":"hydraulic_launched/track_alt.obj",
+			"tie":"hydraulic_launched/tie.obj",
+			"track_tie":"hydraulic_launched/track_tie.obj",
+			"mask":"hydraulic_launched/mask.obj"
+			}
+		},
+		{
+		"sections":["brakes","diagonal_brakes"],
+		"length":0.33,
+		"brake_length":0.3333,
+		"models":
+			{
+			"track":"hydraulic_launched/quad_brake_track.obj",
+			"tie":"hydraulic_launched/quad_brake_tie.obj",
+			"track_tie":"hydraulic_launched/track_tie.obj",
+			"mask":"hydraulic_launched/mask.obj",
+			"brake":"hydraulic_launched/brake.obj"
+			}
+		},
+		{
+		"sections":["block_brakes","diagonal_brakes"],
+		"length":0.5,
+		"brake_length":0.5,
 
-"models":
+		"models":
+			{
+			"track":"hydraulic_launched/quad_tire_track.obj",
+			"tie":"hydraulic_launched/tie.obj",
+			"track_tie":"hydraulic_launched/track_tie.obj",
+			"mask":"hydraulic_launched/mask.obj",
+			"block_brake":"hydraulic_launched/tires.obj"
+			}
+		},
+		{
+		"sections":["diagonal_brakes","magnetic_brakes"],
+		"length":0.25,
+		"brake_length":0.3333,
+		"models":
+			{
+			"track":"hydraulic_launched/track.obj",
+			"track_alt":"hydraulic_launched/track_alt.obj",
+			"tie":"hydraulic_launched/tie.obj",
+			"track_tie":"hydraulic_launched/track_tie.obj",
+			"mask":"hydraulic_launched/mask.obj",
+			"magnetic_brake":"hydraulic_launched/magnetic_brake.obj"
+			}
+		},
+		{
+		"name":"tri",
+		"sections":["brakes","diagonal_brakes"],
+		"length":0.33,
+		"brake_length":0.3333,
+		"models":
+			{
+			"track":"hydraulic_launched/tri_brake_track.obj",
+			"tie":"hydraulic_launched/tri_brake_tie.obj",
+			"track_tie":"vanilla/giga/track_tie.obj",
+			"mask":"vanilla/giga/mask.obj",
+			"brake":"hydraulic_launched/brake.obj"
+			}
+		},
+		{
+		"sections":["block_brakes","diagonal_brakes"],
+		"length":0.5,
+		"brake_length":0.5,
+		"models":
+			{
+			"track":"hydraulic_launched/tri_tire_track.obj",
+			"tie":"vanilla/giga/tie.obj",
+			"track_tie":"vanilla/giga/track_tie.obj",
+			"mask":"vanilla/giga/mask.obj",
+			"block_brake":"hydraulic_launched/tires.obj"
+			}
+		},
+		{
+		"sections":["diagonal_brakes","magnetic_brakes"],
+		"length":0.25,
+		"brake_length":0.3333,
+		"models":
+			{
+			"track":"vanilla/giga/track.obj",
+			"track_alt":"vanilla/giga/track.obj",
+			"tie":"vanilla/giga/tie.obj",
+			"track_tie":"vanilla/giga/track_tie.obj",
+			"mask":"vanilla/giga/mask.obj",
+			"magnetic_brake":"hydraulic_launched/magnetic_brake.obj"
+			}
+		},
+		{
+		"name":"bi",
+		"sections":["brakes","diagonal_brakes"],
+		"length":0.33,
+		"brake_length":0.3333,
+		"models":
+			{
+			"track":"hydraulic_launched/bi_brake_track.obj",
+			"tie":"hydraulic_launched/bi_brake_tie.obj",
+			"track_tie":"vanilla/mini/track_tie.obj",
+			"mask":"vanilla/mini/mask.obj",
+			"brake":"hydraulic_launched/brake.obj"
+			}
+		},
+		{
+		"sections":["block_brakes","diagonal_brakes"],
+		"length":0.5,
+		"brake_length":0.5,
+		"models":
+			{
+			"track":"hydraulic_launched/bi_tire_track.obj",
+			"tie":"vanilla/mini/tie.obj",
+			"track_tie":"vanilla/mini/track_tie.obj",
+			"mask":"vanilla/mini/mask.obj",
+			"block_brake":"hydraulic_launched/tires.obj"
+			}
+		},
+		{
+		"sections":["diagonal_brakes","magnetic_brakes"],
+		"length":0.25,
+		"brake_length":0.3333,
+		"models":
+			{
+			"track":"vanilla/mini/track.obj",
+			"track_alt":"vanilla/mini/track.obj",
+			"tie":"vanilla/mini/tie.obj",
+			"track_tie":"vanilla/mini/track_tie.obj",
+			"mask":"vanilla/mini/mask.obj",
+			"magnetic_brake":"hydraulic_launched/magnetic_brake.obj"
+			}
+		}
+	],
+
+"lights":[
+	{"type":"diffuse","shadow":false,"direction":[1,0.75,1],"strength":0.3},
+	{"type":"specular","shadow":false,"direction":[0.8,0.85,-1],"strength":1.0},
+	{"type":"diffuse","shadow":false,"direction":[0.8,0.85,-1],"strength":1.0},
+	{"type":"diffuse","shadow":false,"direction":[0,1,0],"strength":0.8},
+	{"type":"diffuse","shadow":false,"direction":[-1,0.25,0],"strength":0.2},
+	{"type":"diffuse","shadow":false,"direction":[-1,1,0],"strength":0.1},
+	{"type":"diffuse","shadow":false,"direction":[-1,-1.5,-0.5],"strength":0.1}
+	],
+
+"offsets":
 	{
-	"track":"hydraulic_launched/quad_track.obj",
-	"track_alt":"hydraulic_launched/quad_track_alt.obj",
-	"tie":"hydraulic_launched/quad_tie.obj",
-	"track_tie":"hydraulic_launched/quad_track_tie.obj",
-	"mask":"hydraulic_launched/mask.obj",
-	"brake":"modern_looping/brake.obj",
-	"block_brake":"modern_looping/brake.obj"
+	"flat":[0,-1,0,-1.5,0,-1,0,-1.5],
+	"gentle":[0,-1,0,-2,0,-2,0,-1],
+	"steep":[1,-0.5,1,-0.5,0.5,-1,1,-0.5],
+	"flat_banked":[0,-2,-1,-1.5,1,0,-1,0],
+	"gentle_banked":[0.75,-2,-0.75,-2,1,-0.5,0,-0.5],
+	"inverted":[0,0,0,0,0,0,0,0],
+	"diagonal":[0,-1.25,0,-1.25,0,-1.25,0,-1.25],
+	"diagonal_banked":[0,-1.75,-1,-0.25,0,-0.25,-1,-1.5],
+	"diagonal_gentle":[0,-1.5,0,-1.5,0,-1.5,0,-1.5],
+	"diagonal_steep":[0,-2.5,0,-0.5,0,-2.5,0,-0.5]
 	},
-"base_directory":"/home/edward/RCT2/OpenRCT2/resources/g2/",
+
+"base_directory":"/home/edward/RCT2/OpenRCT2Alt/resources/tracks/",
 "sprite_directory":"track/intamin_quad/",
 "spritefile_in":"sprites_old.json",
 "spritefile_out":"sprites.json"
 }
+
