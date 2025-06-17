@@ -1,18 +1,34 @@
 {
-"flags":["has_lift","split"],
-"sections":["flat","brakes","gentle_slopes","steep_slopes","turns","sloped_turns","banked_turns","diagonals","helices","inline_twists","half_loops"],
-"lift_sections":["flat","gentle_slopes","diagonals"],
-"z_offset":12,
-"length":0.5,
+"tracks":
+	[
+		{
+		"flags":["separate_tie"],
+		"sections":["flat","brakes","block_brakes","gentle_slopes","steep_slopes","vertical_slopes","turns","sloped_turns","banked_turns","banked_sloped_turns","diagonals","helices","inline_twists","half_loops","quarter_loops","medium_half_loops","large_corkscrews","s_bends","diagonal_brakes","large_slope_transitions","turn_bank_transitions","large_sloped_turns","large_banked_sloped_turns"],
+		"masks":"masks/split.json",
+		"z_offset":15,
+		"length":0.5,
+		"models":
+			{
+			"track":"pipeline/pipeline.obj",
+			"tie":"pipeline/pipeline_tie.obj",
+			"mask":"pipeline/pipeline_mask.obj",
+			"brake":"pipeline/brake.obj",
+			"block_brake":"pipeline/brake.obj"
+			}
+		},
+		{
+		"name":"lift",
+		"flags":["separate_tie","has_lift"],
+		"sections":["flat","gentle_slopes","diagonals"],
+		"models":
+			{
+			"track":"pipeline/pipeline_lift.obj",
+			"tie":"pipeline/pipeline_tie.obj",
+			"mask":"pipeline/pipeline_mask.obj"
+			}
+		}
+	],
 
-"models":
-	{
-	"track":"pipeline/pipeline.obj",
-	"lift":"pipeline/pipeline.obj",
-	"mask":"pipeline/pipeline_mask.obj",
-	"brake":"single_rail/brake.obj",
-	"block_brake":"single_rail/block_brake.obj"
-	},
 "base_directory":"/home/edward/RCT2/OpenRCT2/resources/g2/",
 "sprite_directory":"track/pipeline/",
 "spritefile_in":"sprites_old.json",
