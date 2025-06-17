@@ -1,0 +1,49 @@
+{
+"id":"x7.ride.compact_vertical_coaster",
+"original_id":"00000000|#X7EFGTR|00000000",
+"name":"Compact Vertical Coaster Cars",
+"description":"Roller coaster cars seating 4 passengers to a row",
+"capacity":"8 passengers per car",
+"ride_type":"giga_rc",
+"sprites":["flat","gentle_slopes","steep_slopes","vertical_slopes","diagonals","banked_turns","inline_twists","banked_sloped_turns","corkscrews", "zero_g_rolls","diagonal_sloped_bank_transition","dive_loops"],
+"preview":"hydraulic_launched/preview.png",
+"zero_cars":0,
+"min_cars_per_train":1,
+"max_cars_per_train":1,
+"build_menu_priority":5,
+"preview_tab_car":0,
+"running_sound":"steel",
+"secondary_sound":"scream1",
+"default_colors":
+	[
+	["olive_green","olive_green","bright_red"],
+	["light_blue","yellow","yellow"],
+	["dark_brown","bright_red","light_orange"]
+	],
+"configuration":{"default":1,"front":0},
+"meshes":["compact_vertical/car.obj","compact_vertical/peep.obj","compact_vertical/restraint.obj"],
+"vehicles":
+	[
+		{
+		"flags":["secondary_remap","tertiary_remap","restraint_animation","riders_scream"],
+		"model":
+			[
+			{"mesh_index":0,"position":[0,0,0],"orientation":[0,0,0]},
+			{"mesh_index":2,"position":[0.245,1.395,0],"orientation":[[0,7.5,0],[0,35,0],[0,62.5,0],[0,90,0]]},
+			{"mesh_index":2,"position":[-0.975,1.395,0],"orientation":[[0,7.5,0],[0,35,0],[0,62.5,0],[0,90,0]]}
+			],
+		"mass":1650,
+		"spacing":3,
+		"draw_order":7,
+		"capacity":8,
+		"riders":[
+			{"mesh_index":1,"position":[0,0,-0.52],"orientation":[0,0,0]},
+			{"mesh_index":1,"position":[0,0,0.52],"orientation":[0,0,0]},
+			{"mesh_index":1,"position":[-1.22,0,-0.52],"orientation":[0,0,0]},
+			{"mesh_index":1,"position":[-1.22,0,0.52],"orientation":[0,0,0]}
+			]
+		}
+	],
+
+"output_directory":"/home/edward/.config/OpenRCT2/object/"
+}
